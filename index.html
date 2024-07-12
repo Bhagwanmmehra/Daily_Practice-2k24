@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+<nav>
+    <h2>CarsInSure</h2>
+    <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Services</a>
+    <a href="#">Our Partners</a>
+    <a href="#">Contact Us</a>
+        </div>
+</nav>
+<aside>
+    <div class="roadsafety">
+        <p><q> WE DON'T ONLY INSURE CARS WE ASSURE PEOPLE'S SAFETY ALSO </q></p>
+        <p>Here You Can Check Daily Incidents of The Day By
+    Clicking On The Button Below:</p>
+   <p><a href="https://traffic.nayan.co/"> NAYAN AI </a></p>
+</div>
+</aside>
+
+        <form>
+            <h2>Car Insurance Form</h2>
+            <div class="name-box">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Name">
+            </div>
+            <div class="email-box">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder= "Enter Email" required>
+            </div>
+            <div class="gender-box">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="gender" value="male" required>Male
+                <input type="radio" name="gender" id="gender" value="female" required>Female
+            </div>
+            <div class="brands-box">
+                <label for="car-brands">Car-Brands</label>
+                <select name="car-brands" id="car-brands" class="car-brandsbox">
+                    <option value="">Select</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="bmw">BMW</option>
+                </select>
+            </div>
+            <div class="age-box">
+                <label for="age">Car Age</label>
+                <input type="number" name="age" id="age" max="120" min="0" required>
+            </div>
+            <div class="purchasedate-box">
+                <label for="dateofpurchase">Date of Purchase</label>
+                <input type="date" name="date" id="dateofpurchase">
+            </div>
+            <div class="password-box">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Type Password Here!" required>
+            </div>
+            <div class="submit-box">
+                <button>Submit</button>
+            </div>
+        </form>
+
+    </main>
+</body>
+
+</html>
